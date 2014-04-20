@@ -8,6 +8,20 @@
  *
  * @author Tomas Perez <tom@0x101.com>
  */
+var log = require('node-log'),
+		args = require('./messenger/process-arguments'),
+		sender = require('./messenger/messenger');
 
-var push = require('pushover-notifications'),
-		config = require('node-config').get('pushover');
+if (args.valid()) {
+
+	var title = args.get('title'),
+			message = args.get('message'),
+			priority = args.get('priority');
+
+	sender.send(title, message, priority);
+
+} else {
+	log.warning('Usage: ./send.js <title> <message> <priority(optional)>');
+}
+
+

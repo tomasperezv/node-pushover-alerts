@@ -21,6 +21,7 @@
   "homepage": "https://github.com/tomasperezv/node-pushover-alerts",
   "dependencies": {
     "pushover-notifications": "~0.1.8",
-    "node-config": "git+ssh://git@github.com:tomasperezv/node-config.git"
+    "node-config": "git+ssh://git@github.com:tomasperezv/node-config.git",
+    "node-log": "git+ssh://git@github.com:tomasperezv/node-log.git"
   }
 }
