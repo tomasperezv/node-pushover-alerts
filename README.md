@@ -3,6 +3,12 @@ node-pushover-alerts
 
 Wrapper on top of node-pushover to send [pushover](https://pushover.net) alerts.
 
+### Installation ###
+
+```shell
+$ npm install git+ssh://git@github.com:tomasperezv/node-pushover-alerts.git
+```
+
 ### Configuration ###
 
 Copy ./config/pushover-example.json to ./config/pushover.json
