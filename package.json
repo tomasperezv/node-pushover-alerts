@@ -1,0 +1,26 @@
+{
+  "name": "node-pushover-alerts",
+  "version": "0.0.1",
+  "description": "Wrapper on top of node-pushover to send push notifications alerts",
+  "main": "send.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tomasperezv/node-pushover-alerts.git"
+  },
+  "keywords": [
+    "pushover"
+  ],
+  "author": "Tomás Pérez <tom@0x101.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomasperezv/node-pushover-alerts/issues"
+  },
+  "homepage": "https://github.com/tomasperezv/node-pushover-alerts",
+  "dependencies": {
+    "pushover-notifications": "~0.1.8",
+    "node-config": "git+ssh://git@github.com:tomasperezv/node-config.git"
+  }
+}
