@@ -2,7 +2,7 @@
   "name": "node-pushover-alerts",
   "version": "0.0.1",
   "description": "Wrapper on top of node-pushover to send push notifications alerts",
-  "main": "send.js",
+  "main": "messenger.js",
   "scripts": {
     "test": ""
   },
