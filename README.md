@@ -33,7 +33,7 @@ $ ./send.js "This is the title" "This is the message" 1
 ### Sending alerts via code ###
 
 ```javascript
-var sender = require('./messenger/messenger');
+var sender = require('node-pushover-alerts');
 sender.send('Title', 'Message', 1);
 ```
 
