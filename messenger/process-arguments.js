@@ -63,8 +63,6 @@ module.exports.valid = function() {
 		isValid = false;
 	}
 
-	console.log()
-
 	return isValid;
 
-}
+};

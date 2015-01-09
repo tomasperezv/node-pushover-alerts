@@ -53,14 +53,14 @@ var _getMessageObject = function(title, message, priority) {
  */
 module.exports.send = function(title, message, priority) {
 
-	var push = _getPushObject(),
-			message = _getMessageObject(title, message, priority);
+	var push = _getPushObject();
+	message = _getMessageObject(title, message, priority);
 
 	push.send(message, function(err, result) {
 		if (err) {
-			log.error('Message couldn\'t be sent.')
+			log.error('Message couldn\'t be sent.');
 		} else {
-			log.ok('Message sent: ' + result)
+			log.ok('Message sent: ' + result);
 		}
 	});
 
